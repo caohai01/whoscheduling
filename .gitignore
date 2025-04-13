@@ -1,2 +1,4 @@
 .venv
-caches
+.idea
+caches/
+**/__pycache__
