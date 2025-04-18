@@ -123,7 +123,7 @@ use_checkpoint = False
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 map_location = {'cpu': 'cuda' if torch.cuda.is_available() else 'cpu'}
-trained_model_path = 'trained_models/trained_model_40k.pkl'
+trained_model_path = 'models/model_bl_5s.pkl'
 # data_path = 'data_0601140000_5s.csv'
 # data_cols = (2, 3, 5, 6, 7, 8, 9, 10, 10)  # 文件中分别对应前面的IDXs
 # dist_matrix_path = 'dist_0601140000_5s.csv'
