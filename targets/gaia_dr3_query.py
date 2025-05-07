@@ -13,8 +13,8 @@ start_ra = 0
 start_dec = -10
 delta_ra = 4
 delta_dec = 4
-min_mag = 11.0
-max_mag = 11.3
+min_mag = 10
+max_mag = 13
 # radius = u.Quantity(1, u.deg)
 
 out_columns = ['source_id ', 'ra', 'dec', 'phot_g_mean_mag', 'phot_bp_mean_mag', 'phot_rp_mean_mag']

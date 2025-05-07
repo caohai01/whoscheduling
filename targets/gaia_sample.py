@@ -6,11 +6,11 @@ df = pd.read_csv('gaia_5_4x4_10-13.csv')
 
 # Randomly select N stars
 # SOURCE_ID,ra,dec,phot_g_mean_mag,snr,filter_index,visit_count
-N = 200
+N = 300
 rnd_seed = 1
 np.random.seed(rnd_seed)
-df = df[df['phot_g_mean_mag'] < 12.55]
-df = df[df['phot_g_mean_mag'] > 12.45]
+df = df[df['phot_g_mean_mag'] < 13]
+df = df[df['phot_g_mean_mag'] >= 10]
 random_stars = df.sample(n=N)
 
 # target_id,RA,Dec,mag1,mag2,author,snr
